@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -101,7 +100,7 @@
 		var getConfig = getSearchParameters(); 
 
 		function ticker() {
-			ajax("https://www.bitstamp.net/api/ticker/btcusd", function (data) {
+			ajax("https://www.bitstamp.net/api/v2/ticker/btceur/", function (data) {
 				updateById("price", numberWithCommas(data.bid));
 				updateById("change", (data.bid > data.open ? "+" : "") + numberWithCommas((data.bid-data.open).toFixed(2)) + " (" + (((data.bid-data.open)/data.bid) * 100).toFixed(2) + "%)");
 				updateById("low", numberWithCommas(data.low));

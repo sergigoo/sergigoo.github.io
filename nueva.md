@@ -101,12 +101,7 @@
 
 		function ticker() {
 			ajax("https://api.kraken.com/0/public/Ticker?pair=BTCEUR", function (data) {
-				updateById("price", numberWithCommas(data.bid));
-				updateById("change", (data.bid > data.open ? "+" : "") + numberWithCommas((data.bid-data.open).toFixed(2)) + " (" + (((data.bid-data.open)/data.bid) * 100).toFixed(2) + "%)");
-				updateById("low", numberWithCommas(data.low));
-				updateById("high", numberWithCommas(data.high));
-			})
-		};
+				updateById("price", numberWithCommas(data.bid))
 
 		var updateFreq = 10; // Refresh ticker values every n seconds
 		if(getConfig.hasOwnProperty('updateFreq')) {

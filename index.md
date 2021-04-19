@@ -25,7 +25,7 @@
 
 			.stat {
 				color: #787878;
-				top:10px;
+				top:5px;
 				position:relative;
 			}
 

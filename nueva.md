@@ -66,7 +66,7 @@
 		function ajax(url, callback) {
 			var req = new XMLHttpRequest;
 			req.onreadystatechange = function() {
-				if (req.readyState == 4 && req.status == 20) {
+				if (req.readyState == 4 && req.status == 200) {
 					callback(JSON.parse(req.responseText));
 				}
 			}

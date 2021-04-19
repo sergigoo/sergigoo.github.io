@@ -66,7 +66,7 @@
 		function ajax(url, callback) {
 			var req = new XMLHttpRequest;
 			req.onreadystatechange = function() {
-				if (req.readyState == 4 && req.status == 200) {
+				if (req.readyState == 4 && req.status == 20) {
 					callback(JSON.parse(req.responseText));
 				}
 			}
@@ -114,7 +114,7 @@
 		}
 
 		if(updateFreq > 0) {
-			setInterval("ticker()", updateFreq*1000);
+			setInterval("ticker()", updateFreq*300);
 		}
 		ticker();
 
@@ -131,7 +131,7 @@
 
 		if(typeof(okular) !== "undefined") {
 			if(deviceFreq > 0) {
-				setInterval("deviceInfo()", deviceFreq*1000);
+				setInterval("deviceInfo()", deviceFreq*300);
 			}
 			deviceInfo();
 		}

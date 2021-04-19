@@ -21,7 +21,7 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 3em;
+				font-size: 0,2em;
 			}
 
 			.stat {

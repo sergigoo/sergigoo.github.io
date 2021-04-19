@@ -13,7 +13,7 @@
 
 			.ticker {
 				width: 100%;
-				padding: 20px;
+				padding: 15px;
 				text-align: center;
 				box-sizing: border-box;
 				font-family: "Trebuchet MS"
@@ -21,17 +21,17 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 6em;
+				font-size: 3em;
 			}
 
 			.stat {
 				color: #787878;
-				top:6px;
+				top:4px;
 				position:relative;
 			}
 
 			.stat_value, .stat {
-				font-size: 6em;
+				font-size: 3em;
 			}
 
 			.stat_value::before, .price::before {

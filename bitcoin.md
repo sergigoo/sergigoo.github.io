@@ -12,7 +12,7 @@
 
 			.ticker {
 				width: 100%;
-				padding: 50px;
+				padding: 10px;
 				text-align: center;
 				box-sizing: border-box;
 				font-family: "Trebuchet MS"
@@ -25,7 +25,7 @@
 
 			.stat {
 				color: #787878;
-				top:8px;
+				top:5px;
 				position:relative;
 			}
 

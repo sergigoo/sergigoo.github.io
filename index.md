@@ -12,7 +12,7 @@
 
 			.ticker {
 				width: 100%;
-				padding: 20px;
+				padding: 10px;
 				text-align: center;
 				box-sizing: border-box;
 				font-family: "Trebuchet MS"

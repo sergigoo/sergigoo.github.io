@@ -52,7 +52,7 @@
 	</head>
 	<body>
 		<div class="ticker">
-			<div class="symbol">BTC</div>
+			<div class="symbol">BTCEUR</div>
 			<div class="price" id="price"></div>
 			<div class="stat">change</div> <div class="stat_value" id="change"></div>
 			<div class="stat">low</div> <div class="stat_value" id="low"></div>

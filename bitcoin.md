@@ -25,7 +25,7 @@
 
 			.stat {
 				color: #787878;
-				top:10px;
+				top:8px;
 				position:relative;
 			}
 
@@ -38,7 +38,7 @@
 			}
 
 			.price {
-				font-size: 12em;
+				font-size: 8em;
 			}
 			
 			.footer {

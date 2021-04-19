@@ -12,7 +12,7 @@
 
 			.ticker {
 				width: 100%;
-				padding: 10px;
+				padding: 9px;
 				text-align: center;
 				box-sizing: border-box;
 				font-family: "Trebuchet MS"
@@ -20,12 +20,12 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 9em;
+				font-size: 7em;
 			}
 
 			.stat {
 				color: #787878;
-				top:5px;
+				top:4px;
 				position:relative;
 			}
 
@@ -38,7 +38,7 @@
 			}
 
 			.price {
-				font-size: 8em;
+				font-size: 7em;
 			}
 			
 			.footer {
@@ -108,7 +108,7 @@
 			})
 		};
 
-		var updateFreq = 90; // Refresh ticker values every n seconds
+		var updateFreq = 10; // Refresh ticker values every n seconds
 		if(getConfig.hasOwnProperty('updateFreq')) {
 			updateFreq = getConfig.updateFreq;
 		}

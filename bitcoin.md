@@ -1,4 +1,3 @@
-
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -13,7 +12,7 @@
 
 			.ticker {
 				width: 100%;
-				padding: 20px;
+				padding: 50px;
 				text-align: center;
 				box-sizing: border-box;
 				font-family: "Trebuchet MS"
@@ -21,17 +20,17 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 2em;
+				font-size: 9em;
 			}
 
 			.stat {
 				color: #787878;
-				top:5px;
+				top:10px;
 				position:relative;
 			}
 
 			.stat_value, .stat {
-				font-size: 1em;
+				font-size: 6em;
 			}
 
 			.stat_value::before, .price::before {
@@ -39,7 +38,7 @@
 			}
 
 			.price {
-				font-size: 1em;
+				font-size: 12em;
 			}
 			
 			.footer {

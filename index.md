@@ -108,7 +108,7 @@
 			})
 		};
 
-		var updateFreq = 90; // Refresh ticker values every n seconds
+		var updateFreq = 20; // Refresh ticker values every n seconds
 		if(getConfig.hasOwnProperty('updateFreq')) {
 			updateFreq = getConfig.updateFreq;
 		}

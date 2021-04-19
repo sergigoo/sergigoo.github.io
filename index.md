@@ -11,7 +11,7 @@
 			}
 
 			.ticker {
-				width: 20%;
+				width: 100%;
 				padding: 3px;
 				text-align: center;
 				box-sizing: border-box;

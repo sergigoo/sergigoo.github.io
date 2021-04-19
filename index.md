@@ -12,7 +12,7 @@
 
 			.ticker {
 				width: 40%;
-				padding: 50px;
+				padding: 5px;
 				text-align: center;
 				box-sizing: border-box;
 				font-family: "Trebuchet MS"
@@ -52,7 +52,7 @@
 	</head>
 	<body>
 		<div class="ticker">
-			<div class="symbol">BTCEUR</div>
+			<div class="symbol">BTC</div>
 			<div class="price" id="price"></div>
 			<div class="stat">change</div> <div class="stat_value" id="change"></div>
 			<div class="stat">low</div> <div class="stat_value" id="low"></div>

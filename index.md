@@ -11,7 +11,7 @@
 			}
 
 			.ticker {
-				width: 40%;
+				width: 20%;
 				padding: 5px;
 				text-align: center;
 				box-sizing: border-box;
@@ -20,7 +20,7 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 9em;
+				font-size: 2em;
 			}
 
 			.stat {
@@ -30,7 +30,7 @@
 			}
 
 			.stat_value, .stat {
-				font-size: 6em;
+				font-size: 2em;
 			}
 
 			.stat_value::before, .price::before {

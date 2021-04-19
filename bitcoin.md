@@ -21,12 +21,12 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 9em;
+				font-size: 7em;
 			}
 
 			.stat {
 				color: #787878;
-				top:10px;
+				top:8px;
 				position:relative;
 			}
 
@@ -39,7 +39,7 @@
 			}
 
 			.price {
-				font-size: 12em;
+				font-size: 8em;
 			}
 			
 			.footer {
@@ -101,7 +101,7 @@
 		var getConfig = getSearchParameters(); 
 
 		function ticker() {
-			ajax("https://www.bitstamp.net/api/v2/ticker/btceur", function (data) {
+			ajax("https://www.bitstamp.net/api/v2/ticker/btceur/", function (data) {
 				updateById("price", numberWithCommas(data.bid));
 				updateById("change", (data.bid > data.open ? "+" : "") + numberWithCommas((data.bid-data.open).toFixed(2)) + " (" + (((data.bid-data.open)/data.bid) * 100).toFixed(2) + "%)");
 				updateById("low", numberWithCommas(data.low));

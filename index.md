@@ -20,7 +20,7 @@
 
 			.symbol {
 				color: #5d5d5d;
-				font-size: 0.6em;
+				font-size: 2em;
 			}
 
 			.stat {
@@ -30,7 +30,7 @@
 			}
 
 			.stat_value, .stat {
-				font-size: 0.6em;
+				font-size: 2em;
 			}
 
 			.stat_value::before, .price::before {
@@ -38,14 +38,14 @@
 			}
 
 			.price {
-				font-size: 0.6em;
+				font-size: 2em;
 			}
 			
 			.footer {
 				position: absolute; 
 				bottom: 0;
 				right: 0;
-				font-size: 0.6em;
+				font-size: 2em;
 				padding-right:2px;
 			}
 		</style>
